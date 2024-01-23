@@ -1,0 +1,82 @@
+{"bot_queries": [
+  {"title": "greetings",
+  "customer_input_queries": ["hello","Hi"],
+  "bot_responses": ["Welcome to Solent_digitalbank-Iam Emily your virtual assistant","How can i help you today"]
+  },
+  {"title": "query",
+  "customer_input_queries": ["Hi there"],
+  "bot_responses": ["You are connected to Emily\n To get started,please select the below options:\n1)Accounts,\n2)Payments,\n3)Cards,\n4)I have a different query."]
+  },
+  {"title": "Account/product opening",
+  "customer_input_queries": ["I would like to know about Account/product opening"],
+  "bot_responses": [" Please choose the enquiry from the list below:\n1)open an overseas account\n2)Travel Insurance\n3)Current account\n4)credit card application timescales"]
+  },
+  {"title": "Current account",
+  "customer_input_queries": ["I would like to know about Current account information"],
+  "bot_responses": ["Thanks for your enquiry. Please select the following options:\n1)Applying for a current account\n2)converting current account\n3)Checking application progress\n4)I have a different enquiry"]
+  },
+  {"title": "Applying for a current account",
+  "customer_input_queries": ["I want to know details on how to apply for a current account"],
+  "bot_responses": ["Do you have an existing Solent_digitalbank current account?\nYes\nNo I do not have"]
+  },
+  {
+    "title": "Solent digital bank current account",
+    "customer_input_queries": ["No I do not have Solent digital bank current account"],
+    "bot_responses": ["Okay,we would be able to help with the application,if you could give us a call.\n we would be able to connect 8am to 8pm every day.\nIf you are calling from the UK:\n+44 3577 444483\nFrom outside the UK:\n+44 1226207177"]
+  },
+  {"title": "student account opening",
+  "customer_input_queries": ["student account opening"],
+  "bot_responses": ["Regarding the student account please apply online and find out more information about the account\nby selecting the link:https://www.solentdigitalbank.co.uk/current-accounts/student/"]
+  },
+   {"title": "payments",
+  "customer_input_queries": ["I would like to know about payment details"],
+  "bot_responses": ["Great, here are the options I have for you.\n1)unrecognised transaction\n2)payments and transfers\n3)global money\n4)unusual account activity"]
+  },
+  {"title": "payments and transfers",
+  "customer_input_queries": ["I would like to know about payments and transfers details"],
+  "bot_responses": ["Please choose your enquiry from the list below.\n1)how can i pay my credit card\n2)set up a new payment\n3)cancel a direct debit\n4)how do i make a transfer"]
+  },
+  {"title": "transfers",
+  "customer_input_queries": ["I would like to know, how do I make a transfer"],
+  "bot_responses": ["you can make payments via mobile banking app,in branch or by giving us a call.\nPlease click on the link below for instructions on how to complete\nhttps://www.solentdigitalbank.co.uk/help/banking-made-easy/making/payments\nThanks for contacting us today."]
+  },
+  {"title": "different query",
+  "customer_input_queries": ["I have a different query"],
+  "bot_responses": ["If you're an existing Solent \ndigitalbank customer, please connect us on the Mobile Banking app or Online\nBanking. Here are some other ways you can connect with us:\nhttps://www.solentdigitalbank.co.uk/help"]
+  },
+
+  {"title": "Telephone banking",
+  "customer_input_queries": ["Telephone banking"],
+  "bot_responses": ["We are here to support you over the phone. For queries about your\ntransactions,however, it is often quicker and easier to go online or use our app\nto chat with us -this service is available 24/7 and you can use it at a time and place that suits you.For more information on Telephone Banking, click on the link below:\nhttps://www.solentdigitalbank.co.uk/ways-to-bank/phone-banking"]
+  },
+
+   {"title": "complaint",
+  "customer_input_queries": ["I have a failed transaction"],
+  "bot_responses": ["Please accept my apologies"]
+  },
+
+   {"title": "Location",
+  "customer_input_queries": ["location","where is it located","what is the location of the bank"],
+  "bot_responses": ["solent bank is located in civic centre, near Marlands shop."]
+  },
+
+  {"title": "update details",
+  "customer_input_queries": ["change my mobile number"],
+  "bot_responses": ["please change your details by logging in to online banking:\nhttps://www.solentbank.co.uk"]
+  },
+
+   {"title": "goodbye",
+  "customer_input_queries": ["cya","See you later","Goodbye","I am leaving","Have a Good Day","bye","see ya"],
+  "bot_responses": ["Sad to see you go :(","Talk you later","Goodbye"]
+  },
+
+  {"title": "invalid",
+    "customer_input_queries": ["","gvsd","asbhk"],
+    "bot_responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"]
+  },
+
+  {"title": "thanks",
+    "customer_input_queries": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+    " bot_responses": ["Happy to help!", "Any time!", "My pleasure"]
+  }
+]}
